@@ -4,8 +4,7 @@ PY=./venv/bin/python3
 .SILENT: ;               # no need for @
 
 prep: ## Setup Virtual Env
-	python3 -m pip install
-	python3 -m pip intall nox-poetry
+	python3 -m pip install nox
 	poetry install
 	poetry run nox
 
@@ -25,7 +24,7 @@ clean: ## Clean package
 
 nox: clean ## Runs nox with existing Virtual environments
 	poetry run nox -r
-	
+
 bpython: ## Run bpython
 	poetry run bpython
 
