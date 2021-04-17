@@ -19,7 +19,7 @@ except ImportError:
     raise SystemExit(dedent(message))
 
 
-package = "muninn"
+package = "tele_muninn"
 python_versions = ["3.8", "3.7"]
 nox.options.sessions = (
     "pre-commit",

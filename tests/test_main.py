@@ -2,7 +2,7 @@
 import pytest
 from click.testing import CliRunner
 
-from muninn import __main__
+from tele_muninn import __main__
 
 
 @pytest.fixture

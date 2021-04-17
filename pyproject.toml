@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.rst"
 homepage = "https://github.com/namuan/muninn"
 repository = "https://github.com/namuan/muninn"
-documentation = "https://muninn.readthedocs.io"
+documentation = "https://tele-muninn.readthedocs.io"
 classifiers = [
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
@@ -45,14 +45,14 @@ sphinx-click = "^2.7.1"
 Pygments = "^2.8.1"
 
 [tool.poetry.scripts]
-muninn = "muninn.__main__:main"
+muninn = "tele_muninn.__main__:main"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
 
 [tool.coverage.run]
 branch = true
-source = ["muninn"]
+source = ["tele_muninn"]
 
 [tool.coverage.report]
 show_missing = true

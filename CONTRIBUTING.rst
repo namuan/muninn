@@ -14,7 +14,7 @@ Here is a list of important resources for contributors:
 
 .. _MIT license: https://opensource.org/licenses/MIT
 .. _Source Code: https://github.com/namuan/muninn
-.. _Documentation: https://muninn.readthedocs.io/
+.. _Documentation: https://tele-muninn.readthedocs.io/
 .. _Issue Tracker: https://github.com/namuan/muninn/issues
 
 How to report a bug
@@ -61,7 +61,7 @@ or the command-line interface:
 .. code:: console
 
    $ poetry run python
-   $ poetry run muninn
+   $ poetry run tele-muninn
 
 .. _Poetry: https://python-poetry.org/
 .. _Nox: https://nox.thea.codes/

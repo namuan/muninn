@@ -6,8 +6,9 @@ Reference
     :backlinks: none
 
 
-muninn.__main__
+Muninn
+
 ---------------
 
-.. automodule:: muninn.__main__
+.. automodule:: tele_muninn.__main__
    :members:
