@@ -7,18 +7,18 @@ Muninn
 
 |pre-commit| |Black|
 
-.. |PyPI| image:: https://img.shields.io/pypi/v/muninn.svg
-   :target: https://pypi.org/project/muninn/
+.. |PyPI| image:: https://img.shields.io/pypi/v/tele-muninn.svg
+   :target: https://pypi.org/project/tele-muninn/
    :alt: PyPI
-.. |Python Version| image:: https://img.shields.io/pypi/pyversions/muninn
-   :target: https://pypi.org/project/muninn
+.. |Python Version| image:: https://img.shields.io/pypi/pyversions/tele-muninn
+   :target: https://pypi.org/project/tele-muninn
    :alt: Python Version
-.. |License| image:: https://img.shields.io/pypi/l/muninn
+.. |License| image:: https://img.shields.io/pypi/l/tele-muninn
    :target: https://opensource.org/licenses/MIT
    :alt: License
-.. |Read the Docs| image:: https://img.shields.io/readthedocs/muninn/latest.svg?label=Read%20the%20Docs
-   :target: https://muninn.readthedocs.io/
-   :alt: Read the documentation at https://muninn.readthedocs.io/
+.. |Read the Docs| image:: https://img.shields.io/readthedocs/tele-muninn/latest.svg?label=Read%20the%20Docs
+   :target: https://tele-muninn.readthedocs.io/
+   :alt: Read the documentation at https://tele-muninn.readthedocs.io/
 .. |Tests| image:: https://github.com/namuan/muninn/workflows/Tests/badge.svg
    :target: https://github.com/namuan/muninn/actions?workflow=Tests
    :alt: Tests
@@ -52,7 +52,7 @@ You can install *Muninn* via pip_ from PyPI_:
 
 .. code:: console
 
-   $ pip install muninn
+   $ pip install tele-muninn
 
 
 Usage
@@ -87,9 +87,8 @@ Credits
 
 .. _MIT license: https://opensource.org/licenses/MIT
 .. _PyPI: https://pypi.org/
-.. _Hypermodern Python Cookiecutter: https://github.com/cjolowicz/cookiecutter-hypermodern-python
 .. _file an issue: https://github.com/namuan/muninn/issues
 .. _pip: https://pip.pypa.io/
 .. github-only
 .. _Contributor Guide: CONTRIBUTING.rst
-.. _Usage: https://muninn.readthedocs.io/en/latest/usage.html
+.. _Usage: https://tele-muninn.readthedocs.io/en/latest/usage.html

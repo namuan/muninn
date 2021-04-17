@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "muninn"
+name = "tele-muninn"
 version = "0.1.0"
-description = "Muninn"
+description = "Just like Alfred but using Telegram"
 authors = ["Namuan <me@deskriders.dev>"]
 license = "MIT"
 readme = "README.rst"
