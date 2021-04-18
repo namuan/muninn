@@ -1,5 +1,5 @@
 export PROJECTNAME=$(shell basename "$(PWD)")
-PY=./venv/bin/python3
+PY=python3
 
 .SILENT: ;               # no need for @
 
