@@ -35,7 +35,7 @@ Make sure to add or update tests as appropriate.
 
 <!-- Badges -->
 
-[pypi-image]: https://img.shields.io/pypi/v/tele-muninn
-[pypi-url]: https://pypi.org/project/tele-muninn/
-[build-image]: https://github.com/namuan/tele-muninn/actions/workflows/build.yml/badge.svg
-[build-url]: https://github.com/namuan/tele-muninn/actions/workflows/build.yml
+[pypi-image]: https://img.shields.io/pypi/v/telemuninn
+[pypi-url]: https://pypi.org/project/telemuninn/
+[build-image]: https://github.com/namuan/muninn/actions/workflows/build.yml/badge.svg
+[build-url]: https://github.com/namuan/muninn/actions/workflows/build.yml
