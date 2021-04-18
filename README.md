@@ -18,8 +18,14 @@ pip install telemuninn
 ```sh
 $ make setup
 $ make deps
-$ tox
+$ make tox
 ```
+
+## Release
+
+-[ ] Increment version in `telemuninn/__init__.py`
+-[ ] Create a new Tag and Release on Github
+-[ ] New Release will trigger the `publish` workflow to upload new binaries on PyPi
 
 ## Contributing
 
