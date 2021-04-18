@@ -28,6 +28,7 @@ lint:  ## Lint and static-check
 	$(PY) -m mypy telemuninn
 
 publish:  ## Publish to PyPi
+	$(PY) -m pip install flit
 	$(PY) -m flit publish
 
 push:  ## Push code with tags
