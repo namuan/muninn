@@ -1,0 +1,14 @@
+-r base.txt
+black
+dtale
+bpython
+black
+coverage
+flake8
+flit
+mccabe
+mypy
+pylint
+pytest
+tox
+tox-gh-actions
