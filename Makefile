@@ -15,7 +15,10 @@ coverage:  ## Run tests with coverage
 	$(PY) -m coverage run --include=telemuninn/* -m pytest -ra
 	$(PY) -m coverage report -m
 
-deps:  ## Install dependencies
+release:  ## Install release dependencies
+	$(PY) -m pip install -r requirements/base.txt
+
+deps:  ## Install all dependencies
 	$(PY) -m pip install --upgrade pip
 	$(PY) -m pip install -r requirements/dev.txt
 
