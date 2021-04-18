@@ -13,9 +13,9 @@ def runner() -> CliRunner:
     return CliRunner()
 
 
-def test_main_succeeds(runner: CliRunner) -> None:
-    with patch("telemuninn.bot_wrapper.start_bot") as mock:
-        mock.return_value = True
+@patch('telemuninn.__main__.start_bot')
+def test_main_succeeds(mocked_val, runner: CliRunner) -> None:
+    mocked_val.return_value = False
 
     result = runner.invoke(main)
     click.echo("Result = {}".format(result))

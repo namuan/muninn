@@ -1,11 +1,11 @@
 """Bot wrapper"""
-# import os
+import os
 
 import click
 from telegram import Update
 
 
-# from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 
 def welcome(update: Update, _) -> None:
@@ -29,14 +29,14 @@ def handle_cmd(update: Update, _) -> None:
 def start_bot() -> bool:
     """Start bot and hook callback functions"""
     print("🏗 Starting bot")
-    # bot_token = os.getenv("TELE_MUNINN_BOT_TOKEN")
-    # updater = Updater(bot_token, use_context=True)
-    # dispatcher = updater.dispatcher
-    #
-    # dispatcher.add_handler(CommandHandler("start", welcome))
-    # dispatcher.add_handler(CommandHandler("help", help_command))
-    # dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_cmd))
-    #
-    # updater.start_polling()
-    # updater.idle()
+    bot_token = os.getenv("TELE_MUNINN_BOT_TOKEN")
+    updater = Updater(bot_token, use_context=True)
+    dispatcher = updater.dispatcher
+
+    dispatcher.add_handler(CommandHandler("start", welcome))
+    dispatcher.add_handler(CommandHandler("help", help_command))
+    dispatcher.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_cmd))
+
+    updater.start_polling()
+    updater.idle()
     return True
